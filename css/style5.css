@@ -22,7 +22,7 @@ header{ height: 120vh;
 
 .jay{
 	background-color: #d4c1ba;
-	border: 2px solid black;
+	border: 2px solid transparent;
 	width: 40vw;
 	height: 25vh;
 	margin-top: 0vh;
@@ -81,7 +81,7 @@ header{ height: 120vh;
 }
 
 .box{
-	border: 2px solid red;
+	border: 2px solid transparent;
 	height: 85vh;
 	width: 100vw;
 	position: absolute;
@@ -89,7 +89,7 @@ header{ height: 120vh;
 }
 
 .contact1{
-	border: 2px solid green;
+	border: 2px solid transparent;
 	height: 13vh;
 	width: 30vw;
 	position: absolute;
@@ -97,7 +97,7 @@ header{ height: 120vh;
 	left: 35vw;
 }
 .contact1 h1{
-	border: 2px solid blue;
+	border: 2px solid transparent;
 	font-size: 6vw;
 	font-family: serif;
 	color: #3d4147;
@@ -116,7 +116,7 @@ header{ height: 120vh;
 }
 
 .info{
-	border: 2px solid red;
+	border: 2px solid transparent;
 	height: 29vh;
 	width: 22vw;
 	margin-left: 0%;
@@ -136,13 +136,13 @@ header{ height: 120vh;
 	text-align: center;
 }
 .contactLinks{
-	border: 2px solid black;
+	border: 2px solid transparent;
 	height: 11vh;
 	width: 22vw;
 	margin-top: 2vh;
 }
 .contactLinks a{
-	border: 2px solid red;
+	border: 2px solid transparent;
 }
 .facebook {
 	width: 6vw;
@@ -209,7 +209,7 @@ header{ height: 120vh;
 }
 
 .part2{
-	border: 2px solid green;
+	border: 2px solid transparent;
 	height: 65vh;
 	width: 50vw;
 	float: right;
@@ -218,7 +218,7 @@ header{ height: 120vh;
 	left: 25vw;
 }
 .text{
-	border: 2px solid black;
+	border: 2px solid transparent;
 	width: 50vw;
 	height: 5vh;
 	margin-top: 0%;
@@ -233,7 +233,7 @@ header{ height: 120vh;
 	font-family: serif;	
 }
 .contact{
-	border: 2px solid blue;
+	border: 2px solid transparent;
 	height: 56vh;
 	position: absolute;
 	top: 7vh;
