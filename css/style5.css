@@ -1,0 +1,481 @@
+*{font-family: sans-serif; 
+   color:white;
+ } 
+ html,body{background-color:#d4c1ba; 
+		  background-position: center; 
+		  background-size: cover; 
+		  height: 100vh;
+		  margin: 0;
+		  padding: 0;
+}
+header{ height: 120vh;
+		background-position: center; 
+		background-size: cover;
+}
+.menu{
+	background-color: #d4c1ba;
+	border: 2px solid transparent;
+	width: 100vw;
+	height: 40vh;
+	overflow: hidden;
+}
+
+.jay{
+	background-color: #d4c1ba;
+	border: 2px solid black;
+	width: 40vw;
+	height: 25vh;
+	margin-top: 0vh;
+	overflow: hidden;
+	position: absolute;
+	top: 14vh;
+	float: left;
+}
+
+.jay h1{
+	border: 2px solid transparent;
+	float: right;
+	color: #3d4147;
+	font-size: 5vw;
+	text-align: right;
+	margin-left: 0%;
+	margin-bottom: 0%;
+	width: 30vw;
+	margin-top: 6%;
+}
+
+.jay h2{
+	border: 2px solid transparent;
+	text-align: left;
+	color: #3d4147;
+	width: 28vw;
+	text-align: right;
+	font-size: 2vw;
+	margin-left: 0vh;
+	margin-top: 1vh;
+	padding: .5%;
+	float: right;
+}
+
+.link {
+	background-color: #d4c1ba;
+	border: 2px solid transparent;
+	width: 40vw;
+	height: 5vh;
+	overflow: hidden;
+	position: absolute;
+	top: 8vh;
+	left: 3vw;
+	margin-top: 13%;
+	margin-left: 40%;
+}
+
+.link a {
+	border: 2px solid transparent;
+	display: inline-block;
+	color: #5d6169;
+	font-size: 1.5vw;
+	padding: 0%;
+	float: bottom;
+	padding-left: 2%;
+}
+
+.box{
+	border: 2px solid red;
+	height: 85vh;
+	width: 100vw;
+	position: absolute;
+	top: 42vh; 
+}
+
+.contact1{
+	border: 2px solid green;
+	height: 13vh;
+	width: 30vw;
+	position: absolute;
+	top: 3vh;
+	left: 35vw;
+}
+.contact1 h1{
+	border: 2px solid blue;
+	font-size: 6vw;
+	font-family: serif;
+	color: #3d4147;
+	width: 30vw;
+	height: 12vh;
+	margin: 0vw;
+	position: absolute;
+	top: 0vh;
+	left: 0vw;
+}
+.part1{
+	border: 2px solid transparent;
+	height: 100%;
+	width: 45%;
+	float: left;
+}
+
+.info{
+	border: 2px solid red;
+	height: 29vh;
+	width: 22vw;
+	margin-left: 0%;
+	position: absolute;
+	top: 30vh;
+}
+.social{
+	border: 2px solid transparent;
+	height: 4vh;
+	width: 20vw;
+}
+.social h1{
+	font-size: 3vw;
+	margin: 0%;
+	color: #5d6169;
+	font-family: serif;
+	text-align: center;
+}
+.contactLinks{
+	border: 2px solid black;
+	height: 11vh;
+	width: 22vw;
+	margin-top: 2vh;
+}
+.contactLinks a{
+	border: 2px solid red;
+}
+.facebook {
+	width: 6vw;
+	height: 10vh; 
+	border: 2px solid transparent;
+	color: white;
+  	float: left;
+  	background-image: url(../img/facebook.png);
+  	background-size: 150% 150%;
+  	background-repeat: no-repeat;
+    padding: 0%;
+    background-position: center;
+	border-radius: 50%;
+}
+.instagram {
+	width: 6vw;
+	height: 10vh; 
+	border: 2px solid transparent;
+	color: white;
+  	float: left;
+  	background-image: url(../img/instagram.png);
+  	background-size: 150% 150%;
+  	background-repeat: no-repeat;
+    padding: 0%;
+    background-position: center;
+	border-radius: 50%;
+	margin-left: 1vw;
+}
+.twitter {
+	width: 6vw;
+	height: 10vh; 
+	border: 2px solid transparent;
+	color: white;
+  	float: left;
+  	margin: 0%;
+  	background-image: url(../img/twitter.png);
+  	background-size: 100% 100%;
+  	background-repeat: no-repeat;
+    background-position: center;
+	border-radius: 50%;
+	margin-left: 1vw;
+}
+.cell{
+	border: 2px solid transparent;
+	height: 4vh;
+	width: 20vw;
+}
+.cell p{
+	font-size: 2vw;
+	margin: 0%;
+	color: #5d6169;
+	font-family: serif;
+}
+.gmail{
+	border: 2px solid transparent;
+	height: 4vh;
+	width: 22vw;
+}
+.gmail p{
+	font-size: 2vw;
+	margin: 0%;
+	color: #5d6169;
+	font-family: serif;
+}
+
+.part2{
+	border: 2px solid green;
+	height: 65vh;
+	width: 50vw;
+	float: right;
+	position: absolute;
+	top: 20vh;
+	left: 25vw;
+}
+.text{
+	border: 2px solid black;
+	width: 50vw;
+	height: 5vh;
+	margin-top: 0%;
+	position: absolute;
+	top: 0vh;
+	left: 0vw;
+}
+.text p{
+	font-size: 2vw;
+	margin: 0%;
+	color: #5d6169;
+	font-family: serif;	
+}
+.contact{
+	border: 2px solid blue;
+	height: 56vh;
+	position: absolute;
+	top: 7vh;
+	left: 0vw; 
+}
+.contact div:nth-child(1){
+	border: 2px solid transparent;
+	height: 35vh;
+	width: 50vw;
+	float: left;
+	padding-right: 0%;
+}
+.contact div:nth-child(1) input:nth-child(1){
+	border: 1.5px solid #ff546b;
+	height: 5.5vh;
+	width: 50vw;
+	margin-bottom: 0%;
+	background: #ff546b;
+	color: white;
+	margin-left: 0%;
+	position: absolute;
+	top: 0vh;
+}
+.contact div:nth-child(1) input:nth-child(2){
+	border: 1.5px solid #ff546b;
+	height: 5.5vh;
+	width: 50vw;
+	margin-bottom: 0%;
+	background: #ff546b;
+	color: white;
+	margin-left: 0%;
+	position: absolute;
+	top: 7vh;
+}
+.contact div:nth-child(1) input:nth-child(3){
+	border: 1.5px solid #ff546b;
+	height: 5.5vh;
+	width: 50vw;
+	background: #ff546b;
+	color: white;
+	margin-left: 0%;
+	position: absolute;
+	top: 14vh;
+}
+
+.contact div:nth-child(1) textarea:nth-child(4){
+	border: 1px solid #ff546b;
+	height: 25vh;
+	width: 50vw;
+	background: #ff546b;
+	color: white;
+	margin-top: 0%;
+	margin-left: 0%;
+	position: absolute;
+	top: 21vh;
+}
+
+.btn{
+	border: 2px solid transparent;
+	position: absolute;
+	top: 48vh;
+	left: 20vw;
+	color: black;
+	background-color: transparent;
+	font-size: 2.5vw;
+}
+
+/*
+.contact div:nth-child(1) input{
+	border: 2px solid transparent;
+	height: 30px;
+	width: 20%;
+	margin-left: 0%;
+	margin-top: 0%;
+	background: transparent;
+	color: black;
+	float: right;
+	font-size: 1.5vw;
+	position: absolute;
+	top: 48vh;
+}
+*/
+
+/*Responsive Mode Starts*/
+@media screen and (max-width: 614px){
+body{
+	height: 60vh;
+}
+header{
+	height: 80vh;
+}
+.menu{
+	border: 2px solid transparent;
+	width: 100vw;
+	height: 20vh;
+	overflow: visible;
+	position: absolute;
+	top: 1vh;
+}
+.link {
+	border: 2px solid transparent;
+	width: 95vw;
+	height: 5vh;
+	margin-top: 0%;
+	margin-left: 0%;
+	position: absolute;
+	top: 2vh;
+}
+.link a {
+	border: 2px solid transparent;
+	display: inline-block;
+	color: #5d6169;
+	font-size: 4.3vw;
+	padding: 0%;
+	position: center;
+	padding-left: 2vw;
+}
+.jay{
+	border: 2px solid transparent;
+	width: 100vw;
+	height: 13vh;
+	float: center;
+	position: absolute;
+	top: 8vh;
+}
+
+.jay h1{
+	border: 2px solid transparent;
+	font-size: 14vw;
+	text-align: center;
+	margin-top: 0vh;
+	margin-left: 0%;
+	margin-bottom: 0%;
+	margin-top: 0%; 
+	width: 100vw;
+	position: absolute;
+	left: 2vw;
+	top: 0vh;
+}
+.jay h2{
+	border: 2px solid transparent;
+	width: 95vw;
+	text-align: center;
+	float: right;
+	font-size: 5vw;
+	margin-left: 0%;
+	margin-top: 1%;
+	padding: .5%;
+	position: absolute;
+	left: 2vw;
+	top: 8vh;
+}
+.box{
+	border: 2px solid transparent;
+	height: 70vh;
+	width: 100vw;
+	position: absolute;
+	top: 25vh; 
+}
+.part1{
+	border: 2px solid transparent;
+	height: 0%;
+	width: 0%;
+	float: left;
+	display: none;
+}
+.part2{
+	border: 2px solid transparent;
+	height: 70vh;
+	width: 100vw;
+	float: right;
+	position: absolute;
+	top: 0vh;
+	left: 0vw;
+}
+.text{
+	border: 2px solid transparent;
+	width: 100vw;
+	height: 5vh;
+	margin-top: 0%;
+	position: absolute;
+	top: 0vh;
+	left: 0vw;
+}
+.text p{
+	font-size: 5vw;
+	font-family: serif;	
+}
+.contact{
+	border: 2px solid transparent;
+	height: 62vh;
+	width: 100vw;
+	position: absolute;
+	top: 7vh;
+	left: 0vw; 
+}
+.contact div:nth-child(1){
+	border: 2px solid transparent;
+	height: 35vh;
+	width: 100vw;
+	float: left;
+	padding-right: 0%;
+}
+.contact div:nth-child(1) input:nth-child(1){
+	border: 1.5px solid #ff546b;
+	height: 6.5vh;
+	width: 97vw;
+	position: absolute;
+	top: 0vh;
+}
+.contact div:nth-child(1) input:nth-child(2){
+	border: 1.5px solid #ff546b;
+	height: 6.5vh;
+	width: 97vw;
+	position: absolute;
+	top: 8vh;
+}
+.contact div:nth-child(1) input:nth-child(3){
+	border: 1.5px solid #ff546b;
+	height: 6.5vh;
+	width: 97vw;
+	position: absolute;
+	top: 16vh;
+}
+
+.contact div:nth-child(1) textarea:nth-child(4){
+	border: 1px solid #ff546b;
+	height: 25vh;
+	width: 97vw;
+	position: absolute;
+	top: 24vh;
+}
+
+.btn{
+	border: 2px solid transparent;
+	position: absolute;
+	top: 52vh;
+	left: 30vw;
+	font-size: 10vw;
+}
+}
+
+
+
+

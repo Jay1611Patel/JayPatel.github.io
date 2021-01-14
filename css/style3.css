@@ -1,0 +1,583 @@
+*{font-family: sans-serif; 
+   color:white;
+ } 
+ html,body{background-color:#d4c1ba; 
+		  background-position: center; 
+		  background-size: cover; 
+		  height: 180vh;
+		  margin: 0;
+		  padding: 0;
+}
+header{ height: 120vh;
+		background-position: center; 
+		background-size: cover;
+}
+.menu{
+	background-color: #d4c1ba;
+	border: 2px solid transparent;
+	width: 100%;
+	height: 30%;
+	overflow: hidden;
+}
+
+.jay{
+	background-color: #d4c1ba;
+	border: 2px solid transparent;
+	width: 38%;
+	height: 70%;
+	overflow: hidden;
+	float: left;
+	margin-top: 5%;
+}
+
+.jay h1{
+	border: 2px solid transparent;
+	float: right;
+	color: #3d4147;
+	font-size: 50px;
+	text-align: center;
+	margin-top: 0%;
+	margin-left: 0%;
+	margin-bottom: 0%;
+	margin-top: 6%; 
+	width: 55%;
+}
+.jay h2{
+	border: 2px solid transparent;
+	text-align: left;
+	color: #3d4147;
+	width: 48%;
+	float: right;
+	font-size: 15px;
+	margin-left: 17%;
+	margin-top: 1%;
+	padding: .5%;
+}
+.link {
+	background-color: #d4c1ba;
+	border: 2px solid transparent;
+	width: 40%;
+	height: 20%;
+	overflow: hidden;
+	margin-top: 13%;
+	margin-left: 40%;
+}
+.link a {
+	border: 2px solid transparent;
+	display: inline-block;
+	color: #5d6169;
+	font-size: 15px;
+	padding: 0%;
+	position: center;
+	padding-left: 2%;
+}
+.information{
+	margin-top: 1%;
+	height: 90%;
+	width: 100%;
+	border: 2px solid transparent;
+}
+.info{
+	border: 2px solid transparent;
+	height: 100%;
+	width: 49%;
+	float: left;
+	margin-left: 18%;
+}
+
+
+.resume{
+	border: 2px solid transparent;
+	height: 20%;
+	width: 100%;
+}
+.resume h1{
+	color: #3d4147;
+	font-size: 75px;
+	font-family: serif;
+	margin-top: 3%;
+	margin-bottom: 2%;
+}
+.resume hr{
+	margin-top: 0%;
+	color: black;
+}
+
+.personal{
+	border: 2px solid transparent;
+	height: 30%;
+	width: 100%;
+}
+.personal h1{
+	border: 2px solid transparent;
+	justify-content: center;
+  	align-items: center;
+  	border-radius: 100%;
+  	text-align: center;
+  	display: flex;
+  	width: 20%;
+  	height: 60%;
+  	float: left;
+  	margin-top: 4%;
+  	background-color: #fc4976;
+}
+.personal p{
+	color: #3d4147;
+	border: 2px solid transparent;
+	font-size: 15px;
+	float: right;
+	width: 70%;
+	height: 80%;
+	margin-right: 5%;
+}
+.personal hr{
+	width: 100%;
+	color: black;
+	margin-top: 30%;
+}
+.education{
+	border: 2px solid transparent;
+	height: 45%;
+	width: 100%;
+}
+.education h1{
+	border: 2px solid transparent;
+	justify-content: center;
+  	align-items: center;
+  	border-radius: 100%;
+  	text-align: center;
+  	display: flex;
+  	width: 20%;
+  	height: 40%;
+  	float: left;
+  	margin-top: 10%;
+  	background-color: #fc4976;
+}
+
+.para{
+	border: 2px solid transparent;
+	font-size: 15px;
+	float: right;
+	width: 70%;
+	height: 90%;
+	margin-right: 5%;
+	margin-top: 3%;
+}
+.para h2{
+	color: #3d4147;
+	font-family: serif;
+	border: 2px solid transparent;
+	font-size: 25px;
+	float: right;
+	width: 100%;
+	height: 12%;
+	margin-top: 1%;
+	margin-bottom: 0%;
+}
+.para h3{
+	color: #3d4147;
+	font-family: serif;
+	border: 2px solid transparent;
+	font-size: 20px;
+	float: right;
+	width: 100%;
+	height: 10%;
+	margin-top: 0%;
+	margin-bottom: 0%;
+}
+.para p{
+	color: #3d4147;
+	font-family: serif;
+	border: 2px solid transparent;
+	font-size: 15px;
+	float: right;
+	width: 100%;
+	height: 60%;
+	margin-top: 1%;
+}
+
+.experience{
+	border: 2px solid transparent;
+	height: 100%;
+	width: 20%;
+	float: right;
+	margin-right: 10%;
+}
+.infoCircle{
+	width: 100%;
+	height: 10%;
+	border: 2px solid transparent;
+}
+.infoCircle i{
+	border: 2px solid transparent;
+	height: 100%;
+	width: 20%;
+}
+.fa-info-circle{
+	color: #00fffb;
+}
+.skills{
+	height: 40%;
+	width: 100%;
+	border: 2px solid transparent;
+}
+.skills h1{
+	font-family: serif;
+	color: #3d4147;
+	margin-bottom: 0%;
+	margin-top: 0%;
+}
+.skills hr{
+	color: #3d4147;
+}
+.skills p{
+	font-family: serif;
+	color: #3d4147;
+	padding: 0%;
+	margin-top: 0%;
+}
+
+
+
+
+
+footer{
+	border: 2px solid transparent;
+	width: 100vw;
+	height: 22vh;
+	background-color: #fc4976;
+	position: absolute;
+	top: 130vh;
+}
+.content{
+	border: 2px solid transparent;
+	height: 20vh;
+	width: 100vw;
+}
+.call{
+	border: 2px solid transparent;
+	height: 20vh;
+	width: 20vw;
+	float: left;
+	margin-left: 4vw;
+}
+.call i{
+	border: 2px solid transparent;
+	color: #3d4147;
+	font-size:6vw;
+	width: 7.5vh;
+	height: 9vh;
+	margin-top: 5vh;
+	margin-left: 1vw;
+}
+.call h1{
+	width: 8vw;
+	border: 2px solid transparent;
+	font-size: 1.5vw;
+	font-family: sans-serif;
+	color: white;
+	float: right;
+	text-align: center;
+	margin-top: 5vh;
+	height: 7vh;
+	position: absolute;
+	left: 14vw;
+	top: 3vh;
+}
+.email{
+	border: 2px solid transparent;
+	height: 20vh;
+	width: 22vw;
+	position: center;
+	margin-left: 0vh;
+	float: left;
+}
+.email i{
+	border: 2px solid transparent;
+	font-size: 6vw;
+	color: #3d4147;
+	width: 6vw;
+	float: left;
+	margin-right: 0vh;
+	margin-top: 5vh;
+	margin-left: 0.5vh;
+}
+
+.email h1{
+	border: 2px solid transparent;
+	margin-top: 5vh;
+	margin-bottom: 1vh;
+	width: 13vw;
+	font-size: 1.5vw;
+	height: 3vh;
+	float: right;
+	font-family: sans-serif;
+	color: white;
+	text-align: center;
+	position: absolute;
+	top: 3vh;
+	left: 33vw;
+}
+.email h2{
+	border: 2px solid transparent;
+	font-size: 1.5vw;
+	height: 3vh;
+	width: 13vw;
+	margin-left: 0vh;
+	margin-top: 0vh;
+	float: right;
+	font-family: sans-serif;
+	color: white;
+	position: absolute;
+	top: 11vh;
+	left: 33vw;
+}
+.follow{
+	border: 2px solid transparent;
+	height: 20vh;
+	width: 21vw;
+	position: center;
+	margin: 0%;
+	float: left;
+}
+.c{
+	border: 2px solid transparent;
+	float: left;
+	width: 6vw;
+	height: 20vh;
+	color: blue;
+}
+.c i{
+	border: 2px solid transparent;
+	font-size: 6vw;
+	color: #3d4147;
+	margin-left: 0vh;
+	margin-top: 0vh;
+	position: absolute;
+	top: 6vh;
+	left: 47vw;
+}
+.links{
+	border: 2px solid transparent;
+	width: 14vw;
+	height: 12vh;
+	float: right;
+	margin-top: 0vh;
+	margin-left: 0vh;
+	position: absolute;
+	top: 4vh;
+	left: 54vw;
+}
+.links a{
+	font-size: 2vw;
+}
+.links h1{
+	border: 2px solid transparent;
+	font-family: sans-serif;
+	font-size: 2vw;
+}
+.fa-facebook {
+	width: 2vw;
+	border: 2px solid transparent;
+ 	background: #3B5998;
+  	color: white;
+  	float: left;
+  	margin-left: 2%;
+  	text-align: center;
+}
+.fa-instagram {
+	width: 2vw;
+	border: 2px solid transparent;
+   	background: pink;
+  	color: white;
+  	float: left;
+  	margin-left: 2%;
+  	text-align: center;
+}
+.fa-twitter {
+	width: 2vw;
+	border: 2px solid transparent;
+   	background: #00acee;
+ 	color: white;
+ 	float: left;
+  	margin-left: 2%;
+  	text-align: center;
+}
+
+.copyright{
+	border: 2px solid transparent;
+	height: 100%;
+	width: 21%;
+	position: center;
+	margin: 0%;
+	float: left;
+}
+.copyright h1{
+	font-size: 6vw;
+	margin-top: 0vh;
+	float: left;
+	margin-left: 0vw;
+	color: #3d4147;
+	position: absolute;
+	top: 5vh;
+	left: 67vw;
+}
+.copyright p{
+	width: 15vw;
+	font-size: 1.2vw;
+	float: right;
+	margin-top: 0vh;
+	position: absolute;
+	top: 7vh;
+	left: 74vw;
+}
+
+
+/*
+614
+
+.call{
+	height: 0%;
+	width: 0%;
+	float: left;
+	margin-left: 0%;
+	display: none;
+}
+.call i{
+	width: 0%;
+	margin-top: 0%;
+	margin-left: 0%;
+	display: none;
+}
+
+.call h1{
+	width: 0%;
+	font-size: 0px;
+	margin-top: 0%;
+	display: none;
+}
+
+.email{
+	height: 0%;
+	width: 0%;
+	margin: 0%;
+	display: none;
+}
+.email i{
+	font-size: 0px;
+	width: 20%;
+	margin-right: 0%;
+	margin-top: 0%;
+	margin-left: 0%;
+	display: none;
+}
+
+.email h1{
+	margin-top: 0%;
+	font-size: 0px;
+	display: none;
+}
+.email h2{
+	font-size: 0px;
+	display: none;
+}
+.c i{
+	font-size: 0px;
+	margin-left: 0%;
+	margin-top: 0%;
+	display: none;
+}
+
+.links{
+	border: 2px solid red;
+	width: 95vw;
+	height: 14vh;
+	float: left;
+	position: absolute;
+	top: 0vh;
+	left: 0vw; 
+	margin-top: 0vh;
+}
+.links h1{
+	border: 2px solid blue;
+	font-size: 8vw;
+	text-align: center;
+	margin-top: 0%;
+	color: #3d4147;
+	position: absolute;
+	top: 0vh;
+	left: 30vw;
+}
+.links a{
+	border: 2px solid green;
+	text-align: center;
+	font-size: 12.9vw;
+	margin-top: -2%;
+	
+}
+.fa-facebook {
+	width: 12vw;
+	height: 6.7vh;
+	border: 2px solid transparent;
+ 	background: transparent;
+  	color: white;
+  	float: left;
+  	margin-left: 0%;
+  	margin-top: 0%;
+  	text-align: center;
+  	position: absolute;
+  	top: 7vh;
+  	left: 27vw;
+}
+.fa-instagram {
+	width: 12vw;
+	height: 6.7vh;
+	background: transparent;
+  	margin-left: 0%;
+  	margin-top: 0%;
+  	text-align: center;
+  	position: absolute;
+  	top: 7vh;
+  	left: 43vw;
+}
+.fa-twitter {
+	width: 12vw;
+	height: 6.7vh;
+	background: transparent;
+  	margin-left: 0%;
+  	margin-top: 0%;
+  	text-align: center;
+  	position: absolute;
+  	top: 7vh;
+  	left: 58vw;
+}
+.copyright{
+	height: 2vh;
+	width: 99vw;
+	position: center;
+	margin: 0%;
+	float: center;
+	position: absolute;
+	top: 7.5vh;
+	left: 0vw;
+}
+.copyright h1{
+	font-size: 0;
+	margin-top: 0;
+	float: left;
+	margin-left: 0;
+	color: #3d4147;
+	display: none;
+}
+.copyright p{
+	width: 96vw;
+	font-size: 4vw;
+	color: #3d4147;
+	position: absolute;
+	top: 7.5vh;
+	left: 0vw;
+	text-align: right;
+	margin-right: 3vw;
+}
+
+*/
