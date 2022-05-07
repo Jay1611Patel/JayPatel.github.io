@@ -190,7 +190,7 @@ section .title::after{
 #about .info .img img{
     height: 450px;
     width: 450px;
-    object-fit: cover;
+    object-fit: contain;
     border-radius: 6px;
 }
 
